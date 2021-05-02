@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "NameValueComponent"
+  "defaultProject": "NameValueComponent",
+  "cli": {
+    "analytics": false
+  }
 }
