@@ -3,35 +3,17 @@
     & * {
         margin:0;
         padding:0;
+        line-height: 20px;
+        display: block;
     }
 
-    .name-value {
-
-        &__name {
-
-        }
-
-        &__value {
-
-        }
+    .name-value__name, small {
+        font-size: 14px;            
+        color: #757575;
     }
-}
 
-:host(.--status) ::ng-deep {
-
-    & * {
-        margin:0;
-        padding:0;
-    }
-    
-    .name-value {
-
-        &__name {
-
-        }
-
-        &__value {
-
-        }
+    .name-value__value, span {
+        font-size: 18px;
+        color: #111;
     }
 }
